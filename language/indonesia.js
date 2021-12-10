@@ -1,87 +1,87 @@
 exports.wait = () => {
-    return `⏳ Mohon tunggu sebentar~`
+    return `⏳ espera un momento
 }
 
 exports.ok = () => {
-    return `✅ Done. Ok desu~`
+    return `✅ hecho, ok~`
 }
 
 exports.err = () => {
-    return `⚠️ Fitur Sedang Error`
+    return `⚠️ Características del medio de error`
 }
 exports.erorLink = () => {
-    return `⚠️ Link nya error`
+    return `⚠️ El error de enlace`
 }
 exports.media = () => {
-    return `Silahkan pilih media yang ingin kamu download`
+    return `Seleccione los medios que desea descargar`
 }
 
 exports.wrongFormat = (prefix) => {
-    return `Format salah ❎ Silakan cek cara penggunaan di *${prefix}allmenu*.`
+    return `Formato incorrecto ❎ Compruebe cómo se utiliza en *${prefix}allmenu*.`
 }
 
 exports.emptyMess = () => {
-    return `❎ Harap masukkan pesan yang ingin disampaikan!`
+    return `❎ Introduzca el mensaje que desea entregar!`
 }
 
 exports.cmdNotFound = (cmd, prefix) => {
-    return `❎ Command *${cmd}* tidak terdaftar di *${prefix}allmenu*`
+    return `❎ Comando *${cmd}* no registrado en *${prefix}allmenu*`
 }
 
 exports.ownerOnly = () => {
-    return `❎ Command ini khusus Owner!`
+    return `❎ Este comando es especial a Owner!`
 }
 
 exports.doneOwner = () => {
-    return `✅  ️Sudah selesai, Owner ~`
+    return `✅  ️Está hecho, Owner ~`
 }
 
 exports.groupOnly = () => {
-    return `👥  Command ini hanya bisa digunakan di dalam grup!`
+    return `👥  Este comando solo se puede usar en grupos.!`
 }
 
 exports.adminOnly = () => {
-    return `🙅  Command ini hanya bisa digunakan oleh admin grup!`
+    return `🙅  Este comando solo puede ser utilizado por administradores de grupo!`
 }
 
 exports.nhFalse = () => {
-    return `Kode tidak valid!`
+    return `Código no válido!`
 }
 
 exports.listBlock = (blockNumber) => {
-    return `*── 「 HALL OF SHAME 」 ──*
+    return `*── 「 SALÓN DE LA VERGÜENZA 」 ──*
     
-Total diblokir: *${blockNumber.length}* user\n`
+Total bloqueado: *${blockNumber.length}* user\n`
 }
 
 exports.notAdmin = () => {
-    return `❎ User bukan seorang admin! ❎`
+    return `❎ El usuario no es un administrador.! ❎`
 }
 
 exports.adminAlready = () => {
-    return `❎ Tidak  dapat mem-promote user yang merupakan admin!`
+    return `❎ No se puede promocionar al usuario que es administrador!`
 }
 
 exports.botNotAdmin = () => {
-    return `Jadikan bot sebagai admin terlebih dahulu! 🙏`
+    return `Hacer que el bot sea un administrador primero! 🙏`
 }
 
 exports.received = (pushname) => {
     return `
-Halo ${pushname}!
-Terima kasih telah melapor, laporanmu akan kami segera terima.`
+Hola ${pushname}!
+Gracias por informar, su informe será recibido pronto.`
 }
 
 exports.videoLimit = () => {
-    return `Ukuran file terlalu besar!`
+    return `El tamaño del archivo es demasiado grande!`
 }
 
 exports.notNum = (q) => {
-    return `"${q}", bukan angka!`
+    return `"${q}", no numero!`
 }
 
 exports.listMenu = (time, salam, pushname, prefix) => {
-    return `*Selamat ${salam} ${pushname} 😖*
+    return `*Seguro ${salam} ${pushname} 😖*
 *⌚Time Server : ${time}*
 *📚 List-Menu Alphabot-Md :*
 
@@ -101,12 +101,12 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}self
 ├ ${prefix}public [only bot]
 ├ ${prefix}del [pesan bot]
-╰❒ ${prefix}setppbot [reply image]
+╰❒ ${prefix}setppbot [reply imagen]
 
-╭─❒ 「 Group 」 ❒
+╭─❒ 「 Grupo 」 ❒
 ├ ${prefix}revoke
 ├ ${prefix}leave
-├ ${prefix}add [62***]
+├ ${prefix}add [593***]
 ├ ${prefix}kick @tag
 ├ ${prefix}revoke
 ├ ${prefix}leave
@@ -117,25 +117,25 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 
 ╭─❒ 「 Anime 」 ❒
 ├ ${prefix}quotesanime
-├ ${prefix}anime [query]
-├ ${prefix}manga [query]
-╰❒ ${prefix}character [query]
+├ ${prefix}anime [consulta]
+├ ${prefix}manga [consulta]
+╰❒ ${prefix}character [consulta]
 
 
 ╭─❒ 「 Search 」 ❒
-├ ${prefix}ytsearch [query]
-├ ${prefix}film [query]
-├ ${prefix}wallpaper [query]
-├ ${prefix}wikimedia [query]
+├ ${prefix}ytsearch [consulta]
+├ ${prefix}film [consulta]
+├ ${prefix}wallpaper [consulta]
+├ ${prefix}wikimedia [consulta]
 ├ ${prefix}hentai
-├ ${prefix}wattpad [query]
-├ ${prefix}webtoons [query]
-├ ${prefix}drakor [query]
-╰❒ ${prefix}pinterest [query]
+├ ${prefix}wattpad [consulta]
+├ ${prefix}webtoons [consulta]
+├ ${prefix}drakor [consulta]
+╰❒ ${prefix}pinterest [consulta]
 
 
-╭─❒ 「 Converter 」 ❒
-├ ${prefix}stiker [reply image]
+╭─❒ 「 convertidor 」 ❒
+├ ${prefix}stiker [reply imagen]
 ╰❒${prefix}toimg [reply sticker]
 
 
@@ -145,7 +145,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}tiktokwm [link]
 ├ ${prefix}tiktokaudio [link]
 ├ ${prefix}ytdl [link]
-├ ${prefix}play [query]
+├ ${prefix}play [consulta]
 ├ ${prefix}ytmp3 link
 ├ ${prefix}ytmp4 link
 ├ ${prefix}facebook link
@@ -210,10 +210,10 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 
 exports.rules = (prefix) => {
     return `
-*── 「 RULES AND FAQ 」 ──*
+*── 「 REGLAS Y PREGUNTAS FRECUENTES 」 ──*
 
-1. Jangan spam bot. 🙅
-Sanksi: *❎ WARN/SOFT BLOCK*
+1. No envíes spam a los bots. 🙅
+Sanciones: *❎ WARN/SOFT BLOCK*
 
 2. Jangan telepon bot. ☎️
 Sanksi: *❎ SOFT BLOCK*
