@@ -192,9 +192,9 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╰❒ ${prefix}cringe
 
 
-╭─❒ 「 TqTo 」 ❒
-├ My God
-├ My Parents
+╭─❒ 「 tanks yo 」 ❒
+├ a mi
+├ zeeone ofc
 ├ Fatih A.
 ├ Ferdi
 ├ DikaArdnt
@@ -215,56 +215,57 @@ exports.rules = (prefix) => {
 1. No envíes spam a los bots. 🙅
 Sanciones: *❎ WARN/SOFT BLOCK*
 
-2. Jangan telepon bot. ☎️
-Sanksi: *❎ SOFT BLOCK*
+2. No llames a los bots. ☎️
+Sanciones: *❎ SOFT BLOCK*
 
-3. Jangan mengeksploitasi bot.😖
-Sanksi: *PERMANENT BLOCK*
+3. No explotes bots.😖
+Sanciones: *BLOQUEO PERMANENTE*
 
-🗯️ Bot tidak atau lambat merespon ?
-➡️ Mungkin dipengaruhi oleh jaringan, signal, banned oleh Whatsapp dan beberapa asalan. Tetap patuhi rules‼️
+🗯️ Los bots no responden o tardan en responder. ?
+➡️ Puede estar influenciado por la red, la señal, prohibido por Whatsapp y algún origen. Apégate a las reglas‼️
 
-🗯️ Dimana saya bisa mendapatkan Script dari bot ini ?
-➡️ Script ini masih private dan tidak pernah diperjual belikan ,bijaklah dalam mengetahui penipu.
+🗯️ ¿Dónde puedo obtener scripts de este bot? ?
+➡️ Este guión sigue siendo privado y nunca se comercializa, sea sabio al conocer a los estafadores..
 
-🗯️ Boleh saya menambah ke grup?
-➡️ Untuk sementara bot dalam status free to add.
+🗯️ ¿Puedo añadir al grupo??
+➡️ Durante un tiempo el bot está en libre para add.
 
-🗯️ Prefixnya apa ya?
-➡️ Bot ini menggunakan multi prefix. Berarti anda bisa menggunakan prefix #, . , Dan prefix wajar lainnya.
+🗯️ ¿Qué prefijo es sí??
+➡️ Este bot utiliza prefijo múltiple. Esto significa que puede usar el prefijo #, . y otros prefijos razonables.
 
-🗯️ Kak, kok syaa chat owner tidak direspon?
-➡️ Owner hanya merespon pertanyaan seputar bot Dan kendala eror, tidak untuk kenalan ataupun mengemis script.
+🗯️ Sis, cómo el dueño del chat shaa no respondió?
+➡️ El propietario solo responde a preguntas sobre bots y restricciones de error, no para conocidos o scripts de mendicidad..
 
 
-Jika sudah dipahami rules-nya, silakan ketik *${prefix}allmenu* untuk memulai!
+Si ya entiende las reglas, escriba *${prefix}allmenu* empezar!
 
-⚠️ Segala kebijakan dan ketentuan Alphabot di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
+⚠️ Todas las políticas y disposiciones de alphabot son mantenidas por el propietario y cualquier cambio de política, en cualquier momento el propietario tiene el derecho de revocar, bloquear al usuario(*﹏*) 
 
-Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan Alphabot
+Arigatou Gozaimasu! Para usuarios amigables y algunas personas que ayudaron también en el proyecto de creación de alphabot
 😖🙏
 `
 }
 exports.source = () =>{
-return`*── 「 SOURCE 」 ──*
+return`*── 「 FUENTE 」 ──*
 
 Base : https://github.com/DikaArdnt/Hisoka-Morou
 Recode : https://github.com/zeeoneofc/Alphabot-Md
+Translate: wa.me/593991398786
 
-Untuk tutorial penginstalan kalian bisa tonton
-video terbaru di playlist ini.
-https://youtube.com/playlist?list=PLFCglBzFPHG7vSQaa9S3P8yfla_d9w-2-
+Para tutoriales de instalación que puede ver
+Último video en esta lista de reproducción.
+https://youtube.com/channel/UCCfr9OPXCCOqRhQlI1pjxzQ
 `
 }
 exports.tos = (ownernomer) => {
     return `
-*── 「 DONATE 」 ──*
+*── 「 DONAR 」 ──*
 
-Hai 👋
-Kalian bisa mendukung saya agar bot ini tetap up to date dengan:
-🏧 0887435047326 (OVO/Dana/GoPay)
+Eh 👋
+no pido donaciones gracias:
+🏧 593991398786
 
-Berapapun donasi kalian akan sangat berarti 👍
+Cualquiera que sea su donación significará mucho. 👍
 
 Arigatou!
 
